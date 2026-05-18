@@ -1,32 +1,70 @@
-# Design a Movie Review Page
+# HTML Section
 
-This project is part of the freeCodeCamp Responsive Web Design certification.
+This folder contains all HTML projects, labs, and practice exercises completed as part of the freeCodeCamp Responsive Web Design certification.
 
-The goal of this project was to create a movie review webpage featuring a movie poster, summary, rating, and cast information using semantic HTML.
+The projects in this section focus on learning the fundamentals of HTML, semantic structure, accessibility, multimedia integration, forms, tables, and page organization.
 
-## Features
-- Semantic HTML5 page structure
-- Featured movie poster image with descriptive alt text
-- Movie summary section
-- Accessible movie rating display
-- Cast list using unordered lists
-- Clean and organized content layout
+## Topics Covered
+- Basic HTML document structure
+- Semantic HTML elements
+- Headings, paragraphs, and lists
+- Links and navigation
+- Images and multimedia
+- Audio and video elements
+- iFrames and embedded content
+- Forms and user input
+- Tables and tabular data
+- Accessibility best practices
+- ARIA attributes
+- HTML debugging and validation
 
-## Technologies Used
-- HTML5
+## Projects Included
 
-## What I Learned
-- How to structure media-focused webpages
-- How to display images accessibly using descriptive alt text
-- How to organize related information using lists
-- How to combine text and semantic HTML for readability
-- How to create simple review-style layouts
+### Basic HTML & Structure
+- Build a Curriculum Outline
+- Debug Camperbot's Profile Page
+- Build a Cat Photo App
+- Build a Recipe Page
+- Build a Bookstore Page
+- Build a Travel Agency Page
 
-## Content Included
-- Movie title and poster
-- Movie synopsis
-- Star rating display
-- Main cast members
+### Multimedia & Embedding
+- Build an HTML Music Player
+- Build an HTML Video Player
+- Build an HTML Audio and Video Player
+- Build a Heart Icon
+- Build a Video Display Using iFrame
+- Build a Video Compilation Page
+
+### Semantic HTML & Blog Layouts
+- Build a List of Major Web Browsers
+- Build Quincy's Job Tips Page
+- Build a Cat Blog Page
+- Build an Event Hub
+- Debug a Coding Journey Blog Post
+- Design a Movie Review Page
+
+### Forms & Accessibility
+- Build a Hotel Feedback Form
+- Build a Survey Form
+- Debug a Donation Form
+- Build an Accessible Audio Controller
+- Build a Checkout Page
+
+### Tables & Data Organization
+- Build a Final Exams Table
+- Build a Book Catalog Table
+- Build a Tech Conference Schedule Table
+
+## Skills Learned
+- Writing clean and semantic HTML
+- Structuring accessible webpages
+- Creating forms with validation
+- Embedding media content
+- Building organized layouts
+- Improving accessibility with ARIA
+- Using semantic elements for better readability
+- Debugging and validating HTML code
 
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).
