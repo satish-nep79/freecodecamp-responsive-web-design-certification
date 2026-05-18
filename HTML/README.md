@@ -1,8 +1,8 @@
 # HTML Section
 
-This folder contains all HTML projects, labs, and practice exercises completed as part of the freeCodeCamp Responsive Web Design certification.
+This folder contains all HTML projects, labs, and certification projects completed as part of the freeCodeCamp Responsive Web Design certification.
 
-The projects in this section focus on learning the fundamentals of HTML, semantic structure, accessibility, multimedia integration, forms, tables, and page organization.
+The projects in this section focus on building a strong foundation in HTML, semantic structure, accessibility, multimedia integration, forms, tables, and page organization.
 
 ## Topics Covered
 - Basic HTML document structure
@@ -12,8 +12,8 @@ The projects in this section focus on learning the fundamentals of HTML, semanti
 - Images and multimedia
 - Audio and video elements
 - iFrames and embedded content
-- Forms and user input
-- Tables and tabular data
+- Forms and validation
+- Tables and structured data
 - Accessibility best practices
 - ARIA attributes
 - HTML debugging and validation
@@ -32,6 +32,7 @@ The projects in this section focus on learning the fundamentals of HTML, semanti
 - Build an HTML Music Player
 - Build an HTML Video Player
 - Build an HTML Audio and Video Player
+- Build a Multimedia Player
 - Build a Heart Icon
 - Build a Video Display Using iFrame
 - Build a Video Compilation Page
@@ -46,7 +47,7 @@ The projects in this section focus on learning the fundamentals of HTML, semanti
 
 ### Forms & Accessibility
 - Build a Hotel Feedback Form
-- Build a Survey Form
+- Build a Survey Form *(Certification Project)*
 - Debug a Donation Form
 - Build an Accessible Audio Controller
 - Build a Checkout Page
@@ -60,7 +61,7 @@ The projects in this section focus on learning the fundamentals of HTML, semanti
 - Writing clean and semantic HTML
 - Structuring accessible webpages
 - Creating forms with validation
-- Embedding media content
+- Embedding multimedia content
 - Building organized layouts
 - Improving accessibility with ARIA
 - Using semantic elements for better readability
