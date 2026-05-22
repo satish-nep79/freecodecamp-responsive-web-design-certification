@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1>Code & Thoughts</h1>
+        <p>A personal space for blogs, ideas, and development practice.</p>
+        <div class="blog-containers"></div>
+    </div>
+
+    <script>
+        const articles = [
+            {
+                title: "Riverpod: Reset providers through dependencies",
+                url: "https://medium.com/@satishnepali/riverpod-reset-providers-through-dependencies-106984f20250",
+                img: "https://res.cloudinary.com/du7pn6pke/image/upload/v1779463161/Gemini_Generated_Image_2x35ke2x35ke2x35_uzrazx.png",
+                description: "Learn how to effectively reset specific Riverpod providers by managing their dependency chains."
+            },
+            {
+                title: "How to invalidate all providers at once",
+                url: "https://medium.com/@satishnepali/how-to-invalidate-all-providers-at-once-in-flutter-riverpod-57118663ce97",
+                img: "https://res.cloudinary.com/du7pn6pke/image/upload/v1779463372/Gemini_Generated_Image_mh35ygmh35ygmh35_oqfjms.png",
+                description: "A deep dive into managing app state by invalidating all providers simultaneously in Riverpod."
+            }
+        ];
+
+        const blogContainer = document.querySelector('.blog-containers');
+
+        articles.forEach(article => {
+            blogContainer.innerHTML += `
+                <div class="blog-post-card">
+                    <img class="post-img"
+                    src="${article.img}"
+                    alt="Blog post cover image"
+                    />
+                    <div class="post-content">
+                        <h2 class="post-title">${article.title}</h2>
+                        <p class="post-excerpt">${article.description}</p>
+                        <a href="${article.url}" class="read-more" target="_blank">Read More</a>
+                    </div>
+                </div>
+            `;
+        });
+
+    </script>
+
+
+</body>
+
+</html>
