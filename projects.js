@@ -14,6 +14,11 @@ const PROJECTS = {
       title: "Stylized Todo List",
       path: "./CSS/03-build-a-stylized-todo-list",
       desc: "Interactive checklist with nested lists, custom link states, and dark-themed styling."
+    },
+    {
+      title: "Blog Post Card",
+      path: "./CSS/04-design-ablog-post-card",
+      desc: "Responsive blog card layout with hover animations, flexbox arrangement, and dynamic JavaScript rendering."
     }
   ],
 
