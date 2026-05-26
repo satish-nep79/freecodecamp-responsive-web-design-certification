@@ -1,83 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Satish Nepali — FreeCodeCamp Projects</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<nav>
-  <a class="nav-logo" href="https://www.satishnepali.com.np" target="_blank">
-    <img src="https://www.satishnepali.com.np/assets/logo.png" alt="Satish Nepali logo" />
-    <div class="nav-divider"></div>
-    <span class="nav-title">Learning Projects</span>
-  </a>
-  <span class="nav-right">FreeCodeCamp · Responsive Web Design</span>
-</nav>
+  <nav>
+    <a class="nav-logo" href="https://www.satishnepali.com.np" target="_blank">
+      <img src="https://www.satishnepali.com.np/assets/logo.png" alt="Satish Nepali logo" />
+      <div class="nav-divider"></div>
+      <span class="nav-title">Learning Projects</span>
+    </a>
+    <span class="nav-right">FreeCodeCamp · Responsive Web Design</span>
+  </nav>
 
-<div class="hero">
-  <h1>Learning in public.</h1>
-  <p>Projects built while working through the FreeCodeCamp curriculum. Each one documents a concept learned.</p>
-</div>
+  <div class="hero">
+    <h1>Learning in public.</h1>
+    <p>Projects built while working through the FreeCodeCamp curriculum. Each one documents a concept learned.</p>
+  </div>
 
-<div class="tabs-bar" id="tabs"></div>
+  <div class="tabs-bar" id="tabs"></div>
 
-<main>
-  <div id="panels"></div>
-</main>
+  <main>
+    <div id="panels"></div>
+  </main>
 
-<footer>
-  satishnepali.com.np · FreeCodeCamp Responsive Web Design Certification
-</footer>
+  <footer>
+    satishnepali.com.np · FreeCodeCamp Responsive Web Design Certification
+  </footer>
 
-<script src="projects.js"></script>
-<script>
-  const META = {
-    CSS:  { tabClass: 'css-tab',  label: 'CSS' },
-    HTML: { tabClass: 'html-tab', label: 'HTML' }
-  };
+  <script src="projects.js"></script>
+  <script>
+    const META = {
+      CSS: { tabClass: 'css-tab', label: 'CSS' },
+      HTML: { tabClass: 'html-tab', label: 'HTML' }
+    };
 
-  const tabsEl   = document.getElementById('tabs');
-  const panelsEl = document.getElementById('panels');
-  const cats     = Object.keys(PROJECTS);
-  let active     = cats[0];
+    const tabsEl = document.getElementById('tabs');
+    const panelsEl = document.getElementById('panels');
+    const cats = Object.keys(PROJECTS);
+    let active = cats[0];
 
-  function render() {
-    tabsEl.innerHTML   = '';
-    panelsEl.innerHTML = '';
+    function render() {
+      tabsEl.innerHTML = '';
+      panelsEl.innerHTML = '';
 
-    cats.forEach(cat => {
-      const m     = META[cat] || { tabClass: 'css-tab', label: cat };
-      const count = PROJECTS[cat].length;
+      cats.forEach(cat => {
+        const m = META[cat] || { tabClass: 'css-tab', label: cat };
+        const count = PROJECTS[cat].length;
 
-      const btn = document.createElement('button');
-      btn.className = `tab ${m.tabClass}${cat === active ? ' active' : ''}`;
-      btn.innerHTML = `${m.label} <span class="badge">${count}</span>`;
-      btn.addEventListener('click', () => { active = cat; render(); });
-      tabsEl.appendChild(btn);
+        const btn = document.createElement('button');
+        btn.className = `tab ${m.tabClass}${cat === active ? ' active' : ''}`;
+        btn.innerHTML = `${m.label} <span class="badge">${count}</span>`;
+        btn.addEventListener('click', () => { active = cat; render(); });
+        tabsEl.appendChild(btn);
 
-      const panel = document.createElement('div');
-      panel.className = `panel${cat === active ? ' active' : ''}`;
+        const panel = document.createElement('div');
+        panel.className = `panel${cat === active ? ' active' : ''}`;
 
-      const grid = document.createElement('div');
-      grid.className = 'project-grid';
+        const grid = document.createElement('div');
+        grid.className = 'project-grid';
 
-      if (!PROJECTS[cat].length) {
-        grid.innerHTML = `
+        if (!PROJECTS[cat].length) {
+          grid.innerHTML = `
           <div class="empty">
             <p>No projects yet</p>
             <small>Add entries to projects.js to see them here</small>
           </div>`;
-      } else {
-        PROJECTS[cat].forEach((proj, i) => {
-          const num  = String(i + 1).padStart(2, '0');
-          const card = document.createElement('div');
-          card.className = 'project-card';
-          card.innerHTML = `
+        } else {
+          PROJECTS[cat].forEach((proj, i) => {
+            const num = String(i + 1).padStart(2, '0');
+            const card = document.createElement('div');
+            card.className = 'project-card';
+            card.innerHTML = `
             <div class="preview-wrap">
               <iframe
                 class="preview-frame"
@@ -94,20 +98,59 @@
               <p class="card-desc">${proj.desc}</p>
               <div class="card-footer">
                 <a class="btn btn-primary" href="${proj.path}/index.html" target="_blank">Live preview ↗</a>
-                <a class="btn btn-ghost"   href="${proj.path}/README.md"  target="_blank">Notes</a>
+                <button class="btn btn-ghost" onclick="openNotes('${proj.path}/README.md', '${proj.title}')">Notes</button>
               </div>
             </div>`;
-          grid.appendChild(card);
-        });
+            grid.appendChild(card);
+          });
+        }
+
+        panel.appendChild(grid);
+        panelsEl.appendChild(panel);
+      });
+    }
+
+    render();
+  </script>
+
+  <!-- Modal -->
+  <div id="notes-modal" class="notes-modal hidden" onclick="handleBackdropClick(event)">
+    <div class="notes-sheet">
+      <div class="notes-header">
+        <span class="notes-label" id="notes-label"></span>
+        <button class="notes-close" onclick="closeNotes()">✕</button>
+      </div>
+      <div class="notes-body" id="notes-body"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script>
+    async function openNotes(url, title) {
+      const body = document.getElementById('notes-body');
+      const label = document.getElementById('notes-label');
+      body.innerHTML = '<p class="notes-loading">Loading…</p>';
+      label.textContent = title + ' · Notes';
+      document.getElementById('notes-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      try {
+        const res = await fetch(url);
+        const text = await res.text();
+        body.innerHTML = marked.parse(text);
+      } catch {
+        body.innerHTML = '<p class="notes-error">Could not load notes.</p>';
       }
-
-      panel.appendChild(grid);
-      panelsEl.appendChild(panel);
-    });
-  }
-
-  render();
-</script>
+    }
+    function closeNotes() {
+      document.getElementById('notes-modal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+    function handleBackdropClick(e) {
+      if (e.target === document.getElementById('notes-modal')) closeNotes();
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeNotes(); });
+  </script>
 
 </body>
+
 </html>
