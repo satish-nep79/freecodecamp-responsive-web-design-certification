@@ -19,6 +19,11 @@ const PROJECTS = {
       title: "Blog Post Card",
       path: "./CSS/04-design-ablog-post-card",
       desc: "Responsive blog card layout with hover animations, flexbox arrangement, and dynamic JavaScript rendering."
+    },
+    {
+      title: "Event Flyer Page",
+      path: "./CSS/05-build-a-event-flyer-page",
+      desc: "Festive event flyer with hero banner, CSS gradients, flexbox layout, and responsive design."
     }
   ],
 
