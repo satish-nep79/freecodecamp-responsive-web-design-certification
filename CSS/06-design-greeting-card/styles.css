@@ -1,0 +1,102 @@
+:root {
+  --bg-main: #0b0f19;         /* Deep Midnight Blue */
+  --bg-surface: #1e293b;      /* Deep Charcoal / Slate */
+  --bg-surface-hover: #243242; /* Slightly Lighter Charcoal */
+
+  --text-primary: #ffffff;    /* Crisp White */
+  --text-secondary: #94a3b8;  /* Muted Light Gray */
+
+  --btn-bg: #2563eb;          /* Electric Blue */
+  --btn-bg-hover: #3b82f6;    /* Vibrant Neon Blue */
+  --btn-text: #ffffff;   
+       /* Crisp White */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+
+.card {
+  background-color: var(--bg-surface);
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px gray;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+.card:hover {
+  background-color: var(--bg-surface-hover);
+  transform: scale(1.1);
+}
+
+h1::before {
+  content: "🥳 ";
+}
+
+h1::after {
+  content: " 🥳";
+}
+
+.message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-links a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: var(--text-primary);
+  background-color: var(--btn-bg);
+  transition: background-color 0.3s ease;
+}
+
+.card-links a:hover {
+  background-color: var(--btn-bg-hover);
+}
+
+.card-links a:active {
+  background-color: midnightblue;
+}
+
+.card-links a:focus {
+  outline: 2px solid var(--btn-bg-hover);
+}
+
+.card-links a:visited {
+  color: var(--text-secondary);
+}
+
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  display:none;  
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  color: var(--text-secondary);
+}
+
+section:target{
+  display:block;
+}
+
+section:hover{
+  transform: skewX(10deg);
+}
+
