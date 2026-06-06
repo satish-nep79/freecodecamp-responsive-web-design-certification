@@ -25,6 +25,22 @@ const PROJECTS = {
       path: "./CSS/05-build-a-event-flyer-page",
       desc: "Festive event flyer with hero banner, CSS gradients, flexbox layout, and responsive design."
     }
+    ,
+    {
+      title: "Greeting Card",
+      path: "./CSS/06-design-greeting-card",
+      desc: "Dark-themed greeting card with hover scale, pseudo-element emojis, and target-based sections."
+    },
+    {
+      title: "Parent-Teacher Conference Form",
+      path: "./CSS/07-build-a-parent-teacher-conference-form",
+      desc: "Grouped form layout with custom radio controls, fieldset organization, and accessible inputs."
+    },
+    {
+      title: "Job Application Form",
+      path: "./CSS/08-build-a-job-application-form",
+      desc: "Card-style application form with validation UI, custom radios, and responsive container sizing."
+    }
   ],
 
   HTML: [
