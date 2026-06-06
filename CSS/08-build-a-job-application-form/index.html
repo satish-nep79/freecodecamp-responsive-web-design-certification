@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form>
+            <label for="name" class="form-group-col">
+                <span>Full Name:</span>
+                <input type="text" name="name" id="name" required placeholder="E.g., John Doe" />
+            </label>
+
+            <label for="email" class="form-group-col">
+                <span>Email:</span>
+                <input type="email" name="email" id="email" required placeholder="E.g., john.doe@example.com" />
+            </label>
+
+            <label for="position" class="form-group-col">
+                <span>Position:</span>
+                <select name="position" id="position" required>
+                    <option value="">Select a position</option>
+                    <option value="software-engineer">Software Engineer</option>
+                    <option value="product-manager">Product Manager</option>
+                    <option value="designer">Designer</option>
+                </select>
+            </label>
+
+
+            <fieldset id="availability" class="radio-group">
+                <legend>Availability:</legend>
+                <label for="full-time" class="form-group-row">
+                    <span>Full Time</span>
+                    <input id="full-time" type="radio" name="availability" value="full-time" checked />
+                </label>
+
+                <label for="part-time" class="form-group-row">
+                    <span>Part-Time</span>
+                    <input id="part-time" type="radio" name="availability" value="part-time" />
+                </label>
+            </fieldset>
+            <label for="message" class="form-group-col">
+                <span>Cover Letter:</span>
+                <textarea name="message" id="message" rows="5"
+                    placeholder="Tell us about yourself and why you're a good fit for this position."></textarea>
+            </label>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+
+</html>
