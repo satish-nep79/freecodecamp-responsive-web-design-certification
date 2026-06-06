@@ -41,6 +41,12 @@ const PROJECTS = {
       path: "./CSS/08-build-a-job-application-form",
       desc: "Card-style application form with validation UI, custom radios, and responsive container sizing."
     }
+    ,
+    {
+      title: "Color Markers",
+      path: "./CSS/09-build-a-set-of-colors-markers",
+      desc: "Marker graphics using gradients, HSL/RGB color models, and shadows to explore color theory."
+    }
   ],
 
   HTML: [
