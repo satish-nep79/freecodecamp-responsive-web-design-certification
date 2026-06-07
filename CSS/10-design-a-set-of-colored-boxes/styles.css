@@ -1,0 +1,129 @@
+:root {
+    --color-text-main: #121212;
+    --color-bg-main: #f4f4f4;
+    --color-shadow: rgba(0, 0, 0, 0.1);
+    --color-content-bg: rgba(255, 255, 255, 0.45);
+    --color-content-border: rgba(255, 255, 255, 0.4);
+
+    /* Card Background Colors */
+    --card-bg-color1: #FF6B6B;
+    --card-bg-color2: rgb(78, 205, 196);
+    --card-bg-color3: deepskyblue;
+    --card-bg-color4: hsl(280, 65%, 60%);
+    --card-bg-color5: hsl(300, 100%, 50%);
+
+    --color-content-text: #121212;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-text-main);
+    background-color: var(--color-bg-main);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body:has(.color1:hover) {
+    background-color: var(--card-bg-color1);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body:has(.color2:hover) {
+    background-color: var(--card-bg-color2);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body:has(.color3:hover) {
+    background-color: var(--card-bg-color3);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body:has(.color4:hover) {
+    background-color: var(--card-bg-color4);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body:has(.color5:hover) {
+    background-color: var(--card-bg-color5);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.color-box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.12),
+        0 10px 20px -3px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    padding: 12px 8px;
+    justify-content: end;
+    align-items: end;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.color-box:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow:
+        0 10px 15px -3px rgba(0, 0, 0, 0.2),
+        0 20px 25px -5px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.color1 {
+    background-color: #FF6B6B;
+}
+
+.color2 {
+    background-color: rgb(78, 205, 196);
+}
+
+.color3 {
+    background-color: deepskyblue;
+}
+
+.color4 {
+    background-color: hsl(280, 65%, 60%);
+}
+
+.color5 {
+    background-color: hsl(300, 100%, 50%);
+}
+
+.content {
+    padding: 0 8px;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    color: #E5E5E5;
+    background-color: rgba(255, 255, 255, 0.20);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.10));
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.10));
+}
