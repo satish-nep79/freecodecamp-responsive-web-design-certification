@@ -47,6 +47,17 @@ const PROJECTS = {
       path: "./CSS/09-build-a-set-of-colors-markers",
       desc: "Marker graphics using gradients, HSL/RGB color models, and shadows to explore color theory."
     }
+    ,
+    {
+      title: "Colored Boxes",
+      path: "./CSS/10-design-a-set-of-colored-boxes",
+      desc: "Grid of color cards demonstrating HEX, RGB, named colors, and HSL with frosted content panels."
+    },
+    {
+      title: "Registration Form",
+      path: "./CSS/11-design-a-registration-form",
+      desc: "Dark-themed registration form with fieldset grouping, validation, and accessible controls."
+    }
   ],
 
   HTML: [
