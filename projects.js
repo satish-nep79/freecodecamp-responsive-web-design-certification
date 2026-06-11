@@ -58,6 +58,12 @@ const PROJECTS = {
       path: "./CSS/11-design-a-registration-form",
       desc: "Dark-themed registration form with fieldset grouping, validation, and accessible controls."
     }
+    ,
+    {
+      title: "Contact Form",
+      path: "./CSS/12-design-a-contact-form",
+      desc: "Glassmorphic contact form with gradient background, decorative radial accents, and accessible inputs."
+    }
   ],
 
   HTML: [
