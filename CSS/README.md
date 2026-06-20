@@ -11,21 +11,37 @@ This folder contains all CSS projects completed as part of the freeCodeCamp Resp
 - Box shadows, borders, and rounded corners
 - CSS gradients and custom properties
 - Accessible link and button styling
+- Dark mode design and color theming
+- Advanced visual effects and decorative elements
 
 ## Projects Included
-- Design a Cafe Menu
-- Design a Business Card
-- Build a Stylized To-Do List
-- Design a Blog Post Card
-- Build an Event Flyer Page
+1. Design a Cafe Menu
+2. Design a Business Card
+3. Build a Stylized To-Do List
+4. Design a Blog Post Card
+5. Build an Event Flyer Page
+6. Design a Greeting Card
+7. Build a Parent-Teacher Conference Form
+8. Build a Job Application Form
+9. Build a Set of Colors Markers
+10. Design a Set of Colored Boxes
+11. Design a Registration Form
+12. Design a Contact Form
+13. Build a Game Settings Panel
+14. Design a Feature Selection Page
 
 ## Skills Learned
 - Creating responsive and clean webpage layouts
-- Styling cards, menus, and flyer interfaces with CSS
+- Styling cards, menus, forms, and interface components with CSS
 - Using flexbox and positioning for layout structure
 - Adding hover animations, transitions, and focus states
 - Building reusable visual design systems with spacing, color, and typography
 - Working with gradients, variables, and responsive units
+- Implementing dark mode interfaces and color contrast principles
+- Creating decorative visual elements with gradients and positioning
+- Building interactive components with state-based styling
+- Form styling with custom checkboxes, radios, and inputs
+- Accessibility best practices in component design
 
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

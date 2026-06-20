@@ -1,0 +1,206 @@
+:root {
+    /* Background Properties */
+    --bg-page: #121212;
+    --bg-card-default: #1e1e1e;
+    --bg-card-hover: #262626;
+    --bg-card-checked: #2d261a;
+    --bg-card-checked-hover: #382f20;
+    --bg-glass: rgba(0, 0, 0, 0.25);
+
+    /* Text Colors */
+    --text-primary: #f0f0f0;
+    --text-secondary: #a0a0a0;
+    --text-secondary-hover: #cbcbcb;
+
+    /* Border Colors */
+    --border-default: #333333;
+    --border-hover: #4d4d4d;
+    --border-checked: #efefef;
+    --border-checked-hover: #ffffff;
+
+    /* Checkbox Specifics */
+    --checkbox-bg-hover: #ffc107;
+    --checkbox-bg-checked: #ffc107;
+    --checkbox-checkmark: #121212;
+
+    /* Utilities */
+    --radius-card: 16px;
+    --radius-checkbox: 6px;
+    --checkbox-size: 28px;
+    --transition-smooth: 0.2s ease-in-out;
+
+    /* Shadows (Adjusted for a cleaner dark mode look) */
+    --shadow-card-default: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --shadow-card-hover: 0 12px 40px rgba(0, 0, 0, 0.65), 0 0 0 1px var(--border-hover);
+    --shadow-card-checked: 0 8px 30px rgba(255, 193, 7, 0.05), 0 0 15px rgba(255, 193, 7, 0.02);
+    --shadow-card-checked-hover: 0 12px 40px rgba(255, 193, 7, 0.12), 0 0 20px rgba(255, 193, 7, 0.05);
+}
+
+body {
+    background-color: var(--bg-page);
+    height: 100vh;
+    width: 100wh;
+    padding: 60px;
+    color: var(--text-primary);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.semi-circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    filter: blur(2px);
+    opacity: 0.7;
+}
+
+.semi-circle--top-left {
+    width: 500px;
+    height: 500px;
+    top: -200px;
+    left: -180px;
+    background: radial-gradient(circle at 60% 60%,
+            #FFD54F 0%,
+            rgba(255, 193, 7, 0.6) 45%,
+            transparent 75%);
+    opacity: 0.65;
+}
+
+.semi-circle--bottom-right {
+    width: 350px;
+    height: 350px;
+    bottom: -130px;
+    right: -100px;
+    background: radial-gradient(circle at 40% 40%,
+            #FFB300 0%,
+            rgba(230, 81, 0, 0.65) 50%,
+            transparent 80%);
+    filter: blur(3px);
+    opacity: 0.7;
+}
+
+.semi-circle--top-right {
+    width: 180px;
+    height: 180px;
+    top: -60px;
+    right: 80px;
+    background: radial-gradient(circle at 50% 50%,
+            rgba(255, 255, 255, 0.45) 0%,
+            rgba(255, 213, 79, 0.3) 55%,
+            transparent 78%);
+    filter: blur(1px);
+    opacity: 0.85;
+}
+
+.semi-circle--bottom-left {
+    width: 220px;
+    height: 220px;
+    bottom: -80px;
+    left: 200px;
+    background: radial-gradient(circle at 50% 50%,
+            #FFC107 0%,
+            rgba(255, 152, 0, 0.45) 50%,
+            transparent 80%);
+    filter: blur(4px);
+    opacity: 0.6;
+}
+
+.semi-circle--ring {
+    width: 480px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at 50% 50%,
+            rgba(255, 213, 79, 0.25) 0%,
+            rgba(255, 193, 7, 0.1) 55%,
+            transparent 75%);
+    border: 1.5px solid rgba(255, 213, 79, 0.45);
+    filter: blur(1px);
+    opacity: 0.85;
+    z-index: 0;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(14px);
+    border-radius: var(--radius-card);
+    padding: 4rem 2.5rem;
+    border: 2px solid var(--border-default);
+}
+
+.feature-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: var(--bg-glass);
+    box-shadow: var(--shadow-card-default);
+    backdrop-filter: blur(14px);
+    color: var(--color-text-primary);
+    border: 2px solid var(--border-default);
+    border-radius: var(--radius-card);
+    padding: 1.5rem 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: start;
+    transition: var(--transition-smooth);
+    box-shadow: var(--shadow-card-default);
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--border-hover);
+    background-color: var(--bg-card-hover);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    appearance: none;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-width: 2px;
+    border-color: var(--border-default);
+    border-style: solid;
+    background-color: transparent;
+    border-radius: var(--radius-checkbox);
+    margin-right: 1rem;
+}
+
+.feature-card:hover input[type="checkbox"] {
+    border: 2px solid var(--border-hover);
+}
+
+.feature-card:has(input[type="checkbox"]:checked) {
+    background-color: var(--bg-card-checked);
+    border-color: var(--border-checked);
+}
+
+input[type="checkbox"]:checked {
+    border-color: var(--border-checked);
+    background-color: var(--checkbox-bg-checked);
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-weight: bold;
+    color: var(--border-checked-hover);
+}

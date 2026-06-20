@@ -4,10 +4,69 @@
 <head>
     <meta charset="utf-8">
     <title>Selection Feature Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+        // The data is immediately accessible as a live JavaScript array
+        const featureData = [
+            {
+                "id": "analytics",
+                "primaryTitle": "Advanced Analytics",
+                "secondaryTitle": "Core Analytics Engine",
+                "description": "Deploy local computation for real-time telemetry, user behavior mapping, and predictive data modeling."
+            },
+            {
+                "id": "ai-agent",
+                "primaryTitle": "Adaptive AI Agent",
+                "secondaryTitle": "Contextual AI Assistant",
+                "description": "Integrate a lightweight, contextual LLM layer to automate code suggestions, content generation, and smart workflow routing."
+            },
+            {
+                "id": "sync",
+                "primaryTitle": "Real-time Sync",
+                "secondaryTitle": "Cloud Synchronization",
+                "description": "Enable secure, encrypted background synchronization across multiple devices with zero-latency conflict resolution."
+            },
+            {
+                "id": "collaboration",
+                "primaryTitle": "Collaborative Suite",
+                "secondaryTitle": "Team Collaboration Hub",
+                "description": "Access integrated chat, document co-editing, task management, and version control tools."
+            }
+        ];
+    </script>
 </head>
 
 <body>
+    <div class="semi-circle semi-circle--top-left"></div>
+    <div class="semi-circle semi-circle--bottom-right"></div>
+    <div class="semi-circle semi-circle--top-right"></div>
+    <div class="semi-circle semi-circle--bottom-left"></div>
+    <div class="semi-circle semi-circle--ring"></div>
 
+    <main>
+        <h1>Feature Selection</h1>
+        <p>Customize your workspace. Select the core capabilities you want to deploy to your current project
+            environment.
+        </p>
+        <div class="feature-card-container">
+
+        </div>
+        <script>
+            const container = document.querySelector(".feature-card-container");
+            const cardTemplate = featureData.map((data) => {
+                return `
+            <label class="feature-card">
+               <span class="card-title">
+                    <input type="checkbox" id="${data.id}" name="feature" value="${data.id}"/>
+                    ${data.primaryTitle}
+                </span>
+                <p class="description">${data.description}</p>
+            </label>
+        `;
+            }).join('');
+            container.innerHTML = cardTemplate;
+        </script>
+    </main>
 </body>
 
 </html>

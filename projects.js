@@ -24,8 +24,7 @@ const PROJECTS = {
       title: "Event Flyer Page",
       path: "./CSS/05-build-a-event-flyer-page",
       desc: "Festive event flyer with hero banner, CSS gradients, flexbox layout, and responsive design."
-    }
-    ,
+    },
     {
       title: "Greeting Card",
       path: "./CSS/06-design-greeting-card",
@@ -40,14 +39,12 @@ const PROJECTS = {
       title: "Job Application Form",
       path: "./CSS/08-build-a-job-application-form",
       desc: "Card-style application form with validation UI, custom radios, and responsive container sizing."
-    }
-    ,
+    },
     {
       title: "Color Markers",
       path: "./CSS/09-build-a-set-of-colors-markers",
       desc: "Marker graphics using gradients, HSL/RGB color models, and shadows to explore color theory."
-    }
-    ,
+    },
     {
       title: "Colored Boxes",
       path: "./CSS/10-design-a-set-of-colored-boxes",
@@ -57,8 +54,7 @@ const PROJECTS = {
       title: "Registration Form",
       path: "./CSS/11-design-a-registration-form",
       desc: "Dark-themed registration form with fieldset grouping, validation, and accessible controls."
-    }
-    ,
+    },
     {
       title: "Contact Form",
       path: "./CSS/12-design-a-contact-form",
@@ -68,6 +64,11 @@ const PROJECTS = {
       title: "Game Settings Panel",
       path: "./CSS/13-build-a-game-setting-pannel",
       desc: "Custom game settings card with styled checkboxes, interaction states, and clean UI layout."
+    },
+    {
+      title: "Feature Selection Page",
+      path: "./CSS/14-design-a-feature-selection-page",
+      desc: "Feature selection interface with decorative semi-circles, card layout, and interactive feature tiles."
     }
   ],
 
