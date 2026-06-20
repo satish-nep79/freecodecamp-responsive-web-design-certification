@@ -63,6 +63,11 @@ const PROJECTS = {
       title: "Contact Form",
       path: "./CSS/12-design-a-contact-form",
       desc: "Glassmorphic contact form with gradient background, decorative radial accents, and accessible inputs."
+    },
+    {
+      title: "Game Settings Panel",
+      path: "./CSS/13-build-a-game-setting-pannel",
+      desc: "Custom game settings card with styled checkboxes, interaction states, and clean UI layout."
     }
   ],
 
