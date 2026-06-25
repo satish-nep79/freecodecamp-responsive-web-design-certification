@@ -74,6 +74,11 @@ const PROJECTS = {
       title: "Rothko Painting",
       path: "./CSS/15-design-a-rothko-painting",
       desc: "Stacked color-field layout inspired by Mark Rothko, using gradients and responsive aspect-ratio-friendly canvas."
+    },
+    {
+      title: "Confidential Email Page",
+      path: "./CSS/16-build-a-confidential-email-page",
+      desc: "Confidential email interface with blurred sensitive text, document-style layout, and atmospheric background styling."
     }
   ],
 
