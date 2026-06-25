@@ -69,6 +69,11 @@ const PROJECTS = {
       title: "Feature Selection Page",
       path: "./CSS/14-design-a-feature-selection-page",
       desc: "Feature selection interface with decorative semi-circles, card layout, and interactive feature tiles."
+    },
+    {
+      title: "Rothko Painting",
+      path: "./CSS/15-design-a-rothko-painting",
+      desc: "Stacked color-field layout inspired by Mark Rothko, using gradients and responsive aspect-ratio-friendly canvas."
     }
   ],
 
