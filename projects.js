@@ -79,6 +79,11 @@ const PROJECTS = {
       title: "Confidential Email Page",
       path: "./CSS/16-build-a-confidential-email-page",
       desc: "Confidential email interface with blurred sensitive text, document-style layout, and atmospheric background styling."
+    },
+    {
+      title: "Flexbox Photo Gallery",
+      path: "./CSS/17-build-flexbox-photo-gallery",
+      desc: "Responsive photo gallery with flexbox layout, dynamic JavaScript rendering, and elegant card-based design with hover animations."
     }
   ],
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <script>
+        const images = [
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
+                "alt": "A grey and white cat lying down outdoors next to a green plant stem.",
+                "title": "Milo — Ambient Light No. 1",
+                "description": "A candid study of texture and soft contrast as natural light catches a domestic shorthair in a garden setting."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg",
+                "alt": "A black striped bengal cat arching its back in a deep stretch on a wooden floor.",
+                "title": "Shadow Play — 35mm",
+                "description": "Capturing dynamic movement and form, highlighting the high-contrast rosettes of a cat stretching in an open living space."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg",
+                "alt": "A close-up portrait of a tabby cat sitting upright on a modern wooden cat tree.",
+                "title": "The Observer — Studio",
+                "description": "A striking symmetrical portrait focusing on intense green eyes, balanced frame lines, and clean minimalist interior wood."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg",
+                "alt": "A brown tabby cat squinting as a finger gently touches the bridge of its nose.",
+                "title": "Tactile Focus — Macro",
+                "description": "An intimate, playful macro shot capturing a moment of interaction and trust, focusing heavily on depth of field."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg",
+                "alt": "A solid black cat curled up snugly inside a white laundry basket under floral sheets.",
+                "title": "Composition in Negative Space",
+                "description": "A high-contrast study showcasing bright golden eyes emerging from deep shadows against a soft, organic textile background."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg",
+                "alt": "A fluffy white and tan cat resting comfortably tucked against a rustic stone wall.",
+                "title": "Textures of Rest — Earth",
+                "description": "Contrasting the incredibly soft coat of a sleeping feline against the jagged, cool tones of a natural stone environment."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg",
+                "alt": "A close-up view of a cat's face showing detailed whiskers and striking eyes in sharp focus.",
+                "title": "Detail & Symmetry — Fine Art",
+                "description": "A tight framing of facial geometry, highlighting macro whisker textures and clear, reflective irises."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg",
+                "alt": "An orange tabby cat looking directly forward with a curious expression.",
+                "title": "Warm Tones — Portrait",
+                "description": "An exploration of warm monochromatic color palettes using the vibrant amber and copper coat patterns of a domestic cat."
+            },
+            {
+                "link": "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg",
+                "alt": "A sleek black and white cat silhouetted gracefully against a bright, sunlit window.",
+                "title": "High Key Contour — Silhouette",
+                "description": "A classic editorial silhouette shot focusing entirely on sharp outline, form, and extreme contrast against a light source."
+            }
+        ];
+    </script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>css flexbox photo gallery</h1>
+    </header>
+    <div class="heading">
+        <h2>The Feline Form: A Study in Feline Grace</h2>
+        <p class="description">A curated collection of images showcasing the elegance and grace of felines.</p>
+    </div>
+    <div class="gallery">
+        <script>
+            let galleryImages = ``;
+            for (let i = 0; i < images.length; i++) {
+                galleryImages += `
+                <figure class="gallery-item">
+                    <img src="${images[i].link}" alt="${images[i].alt}" class="gallery-image">
+                    <figcaption class="gallery-caption">
+                        <h3>${images[i].title}</h3>
+                        <p>${images[i].description}</p>
+                    </figcaption>
+                </figure>
+                `;
+            }
+            document.write(galleryImages);
+        </script>
+
+    </div>
+</body>
+
+</html>

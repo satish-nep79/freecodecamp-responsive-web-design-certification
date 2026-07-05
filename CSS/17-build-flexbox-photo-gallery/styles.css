@@ -1,0 +1,129 @@
+:root {
+    /* --- Color Palette --- */
+    --bg-main: #fafafa;
+    /* Soft studio off-white */
+    --bg-card: #ffffff;
+    /* Pure white for the image containers */
+    --text-main: #1a1a1a;
+    /* Sharp ink-black for headers */
+    --text-muted: #737373;
+    /* Studio grey for metadata/captions */
+    --border-color: #e5e5e5;
+    /* Ultra-fine structural lines */
+
+    /* --- Typography --- */
+    --font-header: 'Syne', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* --- Layout & Spacing --- */
+    --gallery-gap: 2rem;
+    /* Fluid spacing between your flex items */
+    --card-radius: 6px;
+    /* Crisp, subtle modern corners */
+
+    /* --- Micro-Interactions & Animations --- */
+    --transition-smooth: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    --hover-scale: scale(1.05);
+    /* Subtle, elegant lift */
+    --hover-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--bg-main);
+}
+
+.header {
+    text-align: start;
+    text-transform: uppercase;
+    padding: 12px 80px;
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    border-bottom: 4px solid var(--border-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    font-family: var(--font-header);
+    font-size: 1.5rem;
+    color: var(--text-main);
+}
+
+.heading p {
+    color: var(--text-muted);
+    display: block;
+    font-size: 1.15rem;
+    margin-top: 4px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--gallery-gap);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+
+.gallery-item {
+    width: fit-content;
+    max-width: 350px;
+    background-color: var(--bg-card);
+    border-radius: var(--card-radius);
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: var(--transition-smooth);
+}
+
+
+
+.gallery-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gallery-item figcaption {
+    display: block;
+    padding: 16px;
+
+}
+
+.gallery-item figcaption h3 {
+    font-family: var(--font-header);
+    color: var(--text-main);
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+}
+
+.gallery-item figcaption p {
+    font-family: var(--font-body);
+    color: var(--text-muted);
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.gallery-item:hover {
+  transform: var(--hover-scale);
+  box-shadow: var(--hover-shadow);
+}
+
+
+
+
+.gallery::after {
+    content: "";
+    width: 350px;
+}
