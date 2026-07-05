@@ -84,6 +84,11 @@ const PROJECTS = {
       title: "Flexbox Photo Gallery",
       path: "./CSS/17-build-flexbox-photo-gallery",
       desc: "Responsive photo gallery with flexbox layout, dynamic JavaScript rendering, and elegant card-based design with hover animations."
+    },
+    {
+      title: "Colorful Boxes",
+      path: "./CSS/18-design-set-of-colorful-boxes",
+      desc: "Flexbox-based layout with colored boxes demonstrating flex-grow, flex-shrink, order property, and responsive container sizing."
     }
   ],
 
