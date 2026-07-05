@@ -89,6 +89,11 @@ const PROJECTS = {
       title: "Colorful Boxes",
       path: "./CSS/18-design-set-of-colorful-boxes",
       desc: "Flexbox-based layout with colored boxes demonstrating flex-grow, flex-shrink, order property, and responsive container sizing."
+    },
+    {
+      title: "Pricing Plan Layout Page",
+      path: "./CSS/19-design-pricing-plan-layout-page",
+      desc: "Pricing comparison layout with plan cards, feature lists, iconography, and responsive flexbox spacing."
     }
   ],
 

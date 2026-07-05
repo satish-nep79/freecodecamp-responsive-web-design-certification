@@ -33,6 +33,7 @@ This folder contains all CSS projects completed as part of the freeCodeCamp Resp
 16. Build a Confidential Email Page
 17. Build a Flexbox Photo Gallery
 18. Design a Set of Colorful Boxes
+19. Design a Pricing Plan Layout Page
 
 ## Skills Learned
 - Creating responsive and clean webpage layouts
