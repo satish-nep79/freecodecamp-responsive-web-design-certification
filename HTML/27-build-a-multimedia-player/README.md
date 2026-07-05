@@ -32,5 +32,15 @@ The goal of this project was to create a multimedia player webpage featuring aud
 - JavaScript map method educational video
 - English subtitle track
 
+## HTML Concepts Practiced
+- HTML5 audio and video elements
+- Audio and video source files
+- Track element for subtitles
+- Playback controls implementation
+- ARIA labels for accessibility
+- Transcript section for accessibility
+- Responsive media layout
+- Accessible multimedia presentation
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

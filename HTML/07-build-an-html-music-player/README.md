@@ -26,5 +26,13 @@ The goal of this project was to create a simple music player webpage using the H
 - Cruising for a Musing
 - Scratching the Surface
 
+## HTML Concepts Practiced
+- HTML5 audio element
+- Playback controls and attributes
+- Audio source formats
+- Section elements for content organization
+- Semantic structure for multimedia content
+- Accessible audio player implementation
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

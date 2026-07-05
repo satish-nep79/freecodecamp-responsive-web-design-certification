@@ -18,5 +18,12 @@ It introduces the basic structure of an HTML webpage using headings and paragrap
 - How to organize content hierarchically
 - How to create a valid HTML document
 
+## HTML Concepts Practiced
+- Document structure and semantic markup
+- Heading hierarchy (h1, h2, h3)
+- Paragraph elements for content organization
+- Meta viewport for responsive design
+- Valid HTML5 document structure
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

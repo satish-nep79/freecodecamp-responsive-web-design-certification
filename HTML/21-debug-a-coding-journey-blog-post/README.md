@@ -27,5 +27,22 @@ The goal of this project was to debug and structure a blog-style webpage using s
 - Accessibility Matters
 - What's Next?
 
+## Debug Issues Fixed
+- Corrected semantic HTML structure (header, nav, main, article, footer)
+- Fixed heading hierarchy issues
+- Repaired broken anchor tag links
+- Fixed article element nesting
+- Corrected paragraph element structure
+- Fixed email link syntax (mailto:)
+
+## HTML Concepts Practiced
+- Semantic blog layout structure
+- Multiple article elements for content
+- Internal anchor navigation
+- Correct heading hierarchy
+- Proper link syntax and attributes
+- Semantic section organization
+- Email link implementation
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

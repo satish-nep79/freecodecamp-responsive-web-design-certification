@@ -26,5 +26,13 @@ The goal of this project was to create a motivational webpage featuring quotes, 
 - Importance of Networking
 - Importance of Building a Reputation
 
+## HTML Concepts Practiced
+- Quotation elements (q and blockquote)
+- Citation elements with cite
+- Source attribution and references
+- Semantic HTML structure
+- Heading hierarchy for content organization
+- Long-form content presentation
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

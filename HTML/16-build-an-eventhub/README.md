@@ -31,5 +31,14 @@ The goal of this project was to create a structured event hub webpage using sema
 - Cybersecurity Summit 2024
 - Blockchain Expo 2024
 
+## HTML Concepts Practiced
+- Semantic page structure (header, main, section, article, footer)
+- Internal navigation with anchor links
+- Article elements for event grouping
+- Structured event information presentation
+- Image elements with descriptive alt text
+- Heading hierarchy for content organization
+- Organized layout for multi-section pages
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

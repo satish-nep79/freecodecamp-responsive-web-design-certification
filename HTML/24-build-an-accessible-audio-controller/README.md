@@ -27,5 +27,15 @@ The goal of this project was to create an accessible audio control interface usi
 - Volume slider
 - Mute button
 
+## HTML Concepts Practiced
+- Semantic button elements
+- Input type="range" for volume control
+- ARIA attributes for accessibility
+- aria-labelledby for descriptive labels
+- Accessible form controls
+- Screen reader support
+- Keyboard navigation
+- Accessible user interface design
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

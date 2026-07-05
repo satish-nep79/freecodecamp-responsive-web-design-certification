@@ -31,5 +31,16 @@ The goal of this project was to build a structured checkout page using semantic 
 - Cardholder Name
 - Card Number (with format guidance)
 
+## HTML Concepts Practiced
+- Form structure and semantics
+- Labeled input elements for accessibility
+- ARIA attributes for better accessibility
+- aria-describedby for field guidance
+- Required field indicators
+- Section elements for content organization
+- Accessible form inputs
+- Help text implementation
+- E-commerce form patterns
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

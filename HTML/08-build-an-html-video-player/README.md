@@ -28,5 +28,14 @@ The goal of this project was to create a simple video player webpage using the H
 - OGG
 - MOV
 
+## HTML Concepts Practiced
+- HTML5 video element
+- Multiple source formats for browser compatibility
+- Video player controls and attributes
+- Poster images for video preview
+- Loop and muted functionality
+- Playback control implementation
+- Responsive video sizing
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

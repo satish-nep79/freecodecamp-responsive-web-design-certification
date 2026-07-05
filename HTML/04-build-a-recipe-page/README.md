@@ -24,5 +24,14 @@ The goal of this project was to create a simple recipe webpage using basic HTML 
 ## Recipe Included
 - Easy Banana Pancakes
 
+## HTML Concepts Practiced
+- Document structure with semantic elements
+- Heading hierarchy for content organization
+- Paragraph elements for text content
+- Unordered lists for ingredients
+- Ordered lists for step-by-step instructions
+- Image elements with alt text
+- Accessibility best practices for recipe layouts
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

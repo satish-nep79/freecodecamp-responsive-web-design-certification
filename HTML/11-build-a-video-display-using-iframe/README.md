@@ -24,5 +24,13 @@ The goal of this project was to embed and display a video on a webpage using the
 ## Media Included
 - Embedded YouTube video display
 
+## HTML Concepts Practiced
+- HTML5 iframe element
+- Embedded external content
+- iframe attributes (allowfullscreen, src)
+- Security considerations for iframes
+- Responsive iframe embedding
+- Browser compatibility for embedded media
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

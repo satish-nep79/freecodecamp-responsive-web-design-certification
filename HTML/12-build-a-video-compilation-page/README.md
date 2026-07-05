@@ -26,5 +26,13 @@ The goal of this project was to create a webpage that organizes and displays mul
 - CSS
 - JavaScript
 
+## HTML Concepts Practiced
+- Semantic HTML structure with section elements
+- Multiple iframe embeds for educational content
+- Heading hierarchy for content organization
+- Organized layout for video collections
+- Accessible iframe titles
+- Content organization for educational purposes
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

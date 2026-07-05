@@ -25,5 +25,13 @@ The goal of this project was to create a scalable heart icon using SVG (Scalable
 ## Icon Included
 - Red heart SVG icon
 
+## HTML Concepts Practiced
+- SVG elements in HTML
+- SVG path element for custom shapes
+- Scalable vector graphics (SVG vs raster)
+- SVG attributes (viewBox, width, height, fill)
+- Resolution-independent graphics
+- Inline SVG styling
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

@@ -19,6 +19,19 @@ The goal of this exercise was to identify and fix invalid HTML elements and synt
 - How heading hierarchy improves structure and readability
 - How to properly close HTML elements
 
+## Debug Issues Fixed
+- Corrected invalid heading tag syntax
+- Fixed improperly nested HTML elements
+- Repaired broken paragraph tag structure
+- Resolved semantic heading hierarchy issues
+
+## HTML Concepts Practiced
+- Proper opening and closing tag syntax
+- Semantic HTML elements
+- Correct heading hierarchy
+- Valid HTML structure and validation
+- Debugging techniques for HTML errors
+
 ## Final Output
 The corrected profile page includes:
 - A main heading

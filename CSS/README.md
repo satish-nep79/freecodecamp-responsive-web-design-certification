@@ -29,6 +29,9 @@ This folder contains all CSS projects completed as part of the freeCodeCamp Resp
 12. Design a Contact Form
 13. Build a Game Settings Panel
 14. Design a Feature Selection Page
+15. Design a Rothko Painting
+16. Build a Confidential Email Page
+17. Build a Flexbox Photo Gallery
 
 ## Skills Learned
 - Creating responsive and clean webpage layouts

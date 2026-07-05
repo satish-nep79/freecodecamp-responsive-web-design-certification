@@ -25,5 +25,13 @@ The goal of this project was to create a webpage that combines both HTML video a
 - Educational video about the JavaScript `map()` method
 - Audio track: Sailing Away
 
+## HTML Concepts Practiced
+- HTML5 video and audio elements
+- Video and audio source files
+- Playback controls for media
+- Section elements for content organization
+- Responsive media layout
+- Multiple media types in single page
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

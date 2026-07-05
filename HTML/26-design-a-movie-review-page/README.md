@@ -28,5 +28,14 @@ The goal of this project was to create a movie review webpage featuring a movie 
 - Star rating display
 - Main cast members
 
+## HTML Concepts Practiced
+- Semantic page structure
+- Image elements with descriptive alt text
+- Unordered lists for cast information
+- Heading hierarchy for content organization
+- Figure and figcaption for media
+- Paragraph elements for descriptions
+- Accessibility best practices for images
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

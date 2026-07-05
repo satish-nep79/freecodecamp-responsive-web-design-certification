@@ -31,5 +31,15 @@ The goal of this project was to create a structured hotel feedback form using se
 - Service and Food Ratings
 - Additional Comments
 
+## HTML Concepts Practiced
+- Form element and structure
+- Input types (text, email, radio, checkbox, select, textarea)
+- Fieldset and legend for form grouping
+- Label elements for accessibility
+- Placeholder and required attributes
+- Option elements for select dropdowns
+- Form validation attributes
+- Semantic form organization
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

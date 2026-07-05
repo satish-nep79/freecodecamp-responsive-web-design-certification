@@ -32,5 +32,14 @@ The goal of this project was to create a structured blog webpage featuring artic
 - Mr. Whiskers' First Bath
 - Mr. Whiskers' First Birthday Party
 
+## HTML Concepts Practiced
+- Semantic blog layout with header, nav, main, article, footer
+- Internal anchor navigation for page sections
+- Article elements for content grouping
+- Figure and figcaption for media presentation
+- Address element for contact information
+- Heading hierarchy for content organization
+- Accessible navigation and linking
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

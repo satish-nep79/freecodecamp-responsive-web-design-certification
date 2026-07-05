@@ -32,5 +32,16 @@ The goal of this project was to build a fully functional survey form as part of 
 - Improvement Feedback
 - Additional Comments
 
+## HTML Concepts Practiced
+- Form element structure and semantics
+- Various input types (text, email, number, radio, checkbox, select, textarea)
+- Fieldset and legend for form organization
+- Label elements for accessibility
+- Validation attributes (required, min, max)
+- Placeholder text
+- Select and option elements
+- Submit buttons
+- Form accessibility best practices
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

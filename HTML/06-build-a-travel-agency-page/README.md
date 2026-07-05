@@ -15,6 +15,15 @@ The goal of this project was to create a travel agency webpage featuring travel 
 ## Technologies Used
 - HTML5
 
+## HTML Concepts Practiced
+- Semantic page structure with header, nav, main, article, and footer
+- Internal navigation with anchor links
+- Article elements for content grouping
+- Figure and figcaption for media presentation
+- Unordered lists for itineraries
+- Image elements with descriptive alt text
+- Structured content organization for travel information
+
 ## What I Learned
 - How to structure a complete webpage using semantic HTML
 - How to improve accessibility with meaningful alt text

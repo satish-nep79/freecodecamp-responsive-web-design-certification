@@ -29,5 +29,15 @@ The goal of this project was to create a structured and accessible conference sc
 - Design and accessibility talks
 - Breaks and lunch sessions
 
+## HTML Concepts Practiced
+- Complex table structure with multiple sections
+- Table caption for accessibility
+- Thead, tbody, tfoot organization
+- Row headers using scope="row"
+- Colspan for merged cells
+- Rowspan for multi-row content
+- Accessible table semantics
+- Organized schedule presentation
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

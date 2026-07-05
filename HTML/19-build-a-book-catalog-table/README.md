@@ -29,5 +29,14 @@ The goal of this project was to create a structured book catalog using an HTML t
 - The Regular Expressions Book
 - The Python Code Example Handbook
 
+## HTML Concepts Practiced
+- Complex semantic table structure
+- Table sections (thead, tbody, tfoot)
+- Table headers with proper scope
+- Colspan for summary rows
+- Organized catalog data presentation
+- Accessible table semantics
+- Structured data display
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

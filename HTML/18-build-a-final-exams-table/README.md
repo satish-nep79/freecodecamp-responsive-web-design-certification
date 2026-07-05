@@ -27,5 +27,14 @@ The goal of this project was to create a structured table using HTML to display 
 - Student names and final grades
 - Class average calculation
 
+## HTML Concepts Practiced
+- Semantic table structure (table, thead, tbody, tfoot)
+- Table caption for context
+- Table headers (th) and data cells (td)
+- Colspan for column spanning
+- Table row grouping (tr within sections)
+- Organized data presentation
+- Accessible table markup
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

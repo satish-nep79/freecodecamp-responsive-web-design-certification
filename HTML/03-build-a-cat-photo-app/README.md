@@ -27,5 +27,14 @@ The Cat Photo App introduces fundamental HTML concepts by building a simple webp
 - Things Cats Love
 - Top 3 Things Cats Hate
 
+## HTML Concepts Practiced
+- Semantic HTML structure with header, main, section elements
+- Anchor elements for external links
+- Image elements with descriptive alt text
+- Ordered and unordered lists
+- Figure and figcaption for media grouping
+- Text formatting with em and strong elements
+- Heading hierarchy for content organization
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).

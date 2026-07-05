@@ -29,5 +29,22 @@ The goal of this project was to fix syntax and accessibility issues in a donatio
 - Donation Amount field
 - Newsletter subscription checkbox
 
+## Debug Issues Fixed
+- Properly associated labels with form inputs using for and id
+- Corrected input types for proper validation
+- Fixed missing required attributes
+- Repaired broken label-input associations
+- Corrected input type specifications
+- Fixed form accessibility issues
+
+## HTML Concepts Practiced
+- Proper label-input association
+- Input types and validation
+- Required field attributes
+- Form accessibility best practices
+- ID and for attributes for labeling
+- Checkbox input implementation
+- Form structure and semantics
+
 ## freeCodeCamp Lesson
 Part of the Responsive Web Design certification on [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design-v9).
