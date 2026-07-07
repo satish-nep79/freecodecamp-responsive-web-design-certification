@@ -11,7 +11,7 @@ This repository contains completed projects for the freeCodeCamp Responsive Web 
 The HTML section includes a wide range of practice projects covering HTML structure and semantics, multimedia content, embedded video and audio, blog layouts, forms, tables, and accessibility improvements.
 
 ### CSS Projects
-The CSS section contains styled interface projects such as a cafe menu, business card, stylized to-do list, blog post card, event flyer page, and pricing plan layout page. These projects demonstrate responsive card layouts, hover states, transitions, and decorative visuals.
+The CSS section contains styled interface projects such as a cafe menu, business card, stylized to-do list, blog post card, event flyer page, pricing plan layout page, and playing cards project. These projects demonstrate responsive card layouts, hover states, transitions, and decorative visuals.
 
 ## Live Preview
 Open `index.html` in a browser to view the project gallery and access live previews.

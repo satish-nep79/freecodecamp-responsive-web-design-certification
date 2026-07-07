@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main id="playing-cards">
+        <script>
+            const container = document.getElementById('playing-cards');
+
+            fetch('cards.json')
+                .then(response => response.json())
+                .then(cards => {
+                    let cardDivs = ``;
+                    for (let i = 0; i < cards.length; i++) {
+                        let card = cards[i];
+                        let faceClass = '';
+                        if (card.is_face_card) {
+                            faceClass = card.type_of_face_card.toLowerCase() + '-card';
+                        }
+                        cardDivs += `
+                <div class="card ${card.is_red ? 'red-card' : 'black-card'}">
+                    <div class="left">${card.display} <span>${card.symbol}</span></div>
+                    ${card.is_face_card ? `<div class="${faceClass}"></div>` : `<div class="middle">${card.symbol}</div>`}
+                    ${card.is_face_card ? `
+                    <div class="face-symbols-container">
+                        <div class="face-symbol">${card.symbol}</div>    
+                        <div class="face-symbol">${card.symbol}</div>    
+                        <div class="face-symbol reverse">${card.symbol}</div>    
+                        <div class="face-symbol reverse">${card.symbol}</div>    
+                    </div>` : ''}
+                    <div class="right">${card.display} <span>${card.symbol}</span></div>
+                </div>
+                
+                `;
+                    }
+                    container.innerHTML = cardDivs;
+                })
+                .error(error => {
+                    container.innerHTML = `<p class="error">Error loading cards. Please try again later.</p>`;
+                    console.error('Error fetching cards.json:', error);
+                });
+
+        </script>
+
+    </main>
+
+</body>
+
+</html>

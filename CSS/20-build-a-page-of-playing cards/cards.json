@@ -1,0 +1,418 @@
+[
+  {
+    "value": 1,
+    "display": "A",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 2,
+    "display": "2",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 3,
+    "display": "3",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 4,
+    "display": "4",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 5,
+    "display": "5",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 6,
+    "display": "6",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 7,
+    "display": "7",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 8,
+    "display": "8",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 9,
+    "display": "9",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 10,
+    "display": "10",
+    "symbol": "♥",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 11,
+    "display": "J",
+    "symbol": "♥",
+    "is_face_card": true,
+    "type_of_face_card": "Jack",
+    "is_red": true
+  },
+  {
+    "value": 12,
+    "display": "Q",
+    "symbol": "♥",
+    "is_face_card": true,
+    "type_of_face_card": "Queen",
+    "is_red": true
+  },
+  {
+    "value": 13,
+    "display": "K",
+    "symbol": "♥",
+    "is_face_card": true,
+    "type_of_face_card": "King",
+    "is_red": true
+  },
+  {
+    "value": 1,
+    "display": "A",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 2,
+    "display": "2",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 3,
+    "display": "3",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 4,
+    "display": "4",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 5,
+    "display": "5",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 6,
+    "display": "6",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 7,
+    "display": "7",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 8,
+    "display": "8",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 9,
+    "display": "9",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 10,
+    "display": "10",
+    "symbol": "♣",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 11,
+    "display": "J",
+    "symbol": "♣",
+    "is_face_card": true,
+    "type_of_face_card": "Jack",
+    "is_red": false
+  },
+  {
+    "value": 12,
+    "display": "Q",
+    "symbol": "♣",
+    "is_face_card": true,
+    "type_of_face_card": "Queen",
+    "is_red": false
+  },
+  {
+    "value": 13,
+    "display": "K",
+    "symbol": "♣",
+    "is_face_card": true,
+    "type_of_face_card": "King",
+    "is_red": false
+  },
+  {
+    "value": 1,
+    "display": "A",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 2,
+    "display": "2",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 3,
+    "display": "3",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 4,
+    "display": "4",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 5,
+    "display": "5",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 6,
+    "display": "6",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 7,
+    "display": "7",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 8,
+    "display": "8",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 9,
+    "display": "9",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 10,
+    "display": "10",
+    "symbol": "♦",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": true
+  },
+  {
+    "value": 11,
+    "display": "J",
+    "symbol": "♦",
+    "is_face_card": true,
+    "type_of_face_card": "Jack",
+    "is_red": true
+  },
+  {
+    "value": 12,
+    "display": "Q",
+    "symbol": "♦",
+    "is_face_card": true,
+    "type_of_face_card": "Queen",
+    "is_red": true
+  },
+  {
+    "value": 13,
+    "display": "K",
+    "symbol": "♦",
+    "is_face_card": true,
+    "type_of_face_card": "King",
+    "is_red": true
+  },
+  {
+    "value": 1,
+    "display": "A",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 2,
+    "display": "2",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 3,
+    "display": "3",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 4,
+    "display": "4",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 5,
+    "display": "5",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 6,
+    "display": "6",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 7,
+    "display": "7",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 8,
+    "display": "8",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 9,
+    "display": "9",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 10,
+    "display": "10",
+    "symbol": "♠",
+    "is_face_card": false,
+    "type_of_face_card": null,
+    "is_red": false
+  },
+  {
+    "value": 11,
+    "display": "J",
+    "symbol": "♠",
+    "is_face_card": true,
+    "type_of_face_card": "Jack",
+    "is_red": false
+  },
+  {
+    "value": 12,
+    "display": "Q",
+    "symbol": "♠",
+    "is_face_card": true,
+    "type_of_face_card": "Queen",
+    "is_red": false
+  },
+  {
+    "value": 13,
+    "display": "K",
+    "symbol": "♠",
+    "is_face_card": true,
+    "type_of_face_card": "King",
+    "is_red": false
+  }
+]

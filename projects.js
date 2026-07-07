@@ -94,6 +94,11 @@ const PROJECTS = {
       title: "Pricing Plan Layout Page",
       path: "./CSS/19-design-pricing-plan-layout-page",
       desc: "Pricing comparison layout with plan cards, feature lists, iconography, and responsive flexbox spacing."
+    },
+    {
+      title: "Playing Cards",
+      path: "./CSS/20-build-a-page-of-playing cards",
+      desc: "Dynamic playing card layout rendered from JSON data with suit symbols, face-card styling, and responsive card composition."
     }
   ],
 
