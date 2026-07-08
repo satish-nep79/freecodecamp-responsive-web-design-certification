@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition Label</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Fuel Your Everyday</h1>
+  <p>Real food. Honest ingredients. Incredible flavor.</p>
+  <main></main>
+  <script>
+    const mainContainer = document.querySelector('main');
+    fetch('./products.json')
+      .then(response => response.json())
+      .then(products => {
+        let productCardsHTML = ``;
+        products.forEach(product => {
+          const nutritionFacts = product.nutritionFacts;
+          productCardsHTML += `
+            <div class="product-card">
+              <div class="product-details">
+                <h2>${product.productDetails.title}</h2>
+                <img src="${product.productDetails.image.url}" alt="${product.productDetails.image.alt}">
+                <h3>${product.productDetails.subtitle}</h3>
+                <p>${product.productDetails.description}</p>
+              </div>
+              <div class="nutrition-label">
+                <div class="label">
+                <header>
+                  <h2 class="bold">Nutrition Facts</h2>
+                  <div class="divider"></div>
+                  <p>${nutritionFacts.servingsPerContainer} servings per container</p>
+                  <p class="bold">Serving size <span>${nutritionFacts.servingSize}</span></p>
+                </header>
+                <div class="divider large"></div>
+                <div class="calories-info">
+                  <div class="left-container">
+                    <h3 class="bold small-text">Amount per serving</h3>
+                    <p>Calories</p>
+                  </div>
+                  <span>${nutritionFacts.calories}</span>
+                </div>
+                <div class="divider medium"></div>
+                <div class="daily-value small-text">
+                  <p class="bold right no-divider">% Daily Value *</p>
+                  <div class="divider"></div>
+                  <p><span><span class="bold">Total Fat</span> ${nutritionFacts.macronutrients.totalFat.amount}</span> <span class="bold">${nutritionFacts.macronutrients.totalFat.dailyValuePercentage}</span></p>
+                  <p class="indent no-divider">Saturated Fat ${nutritionFacts.macronutrients.saturatedFat.amount} <span class="bold">${nutritionFacts.macronutrients.saturatedFat.dailyValuePercentage}</span></p>
+                  <div class="divider"></div>
+                  <p class="indent no-divider"><span><i>Trans</i> Fat ${nutritionFacts.macronutrients.transFat.amount}</span></p>
+                  <div class="divider"></div>
+                  <p><span><span class="bold">Cholesterol</span> ${nutritionFacts.macronutrients.cholesterol.amount}</span> <span class="bold">${nutritionFacts.macronutrients.cholesterol.dailyValuePercentage}</span></p>
+                  <p><span><span class="bold">Sodium</span> ${nutritionFacts.macronutrients.sodium.amount}</span> <span class="bold">${nutritionFacts.macronutrients.sodium.dailyValuePercentage}</span></p>
+                  <p><span><span class="bold">Total Carbohydrate</span> ${nutritionFacts.macronutrients.totalCarbohydrate.amount}</span> <span class="bold">${nutritionFacts.macronutrients.totalCarbohydrate.dailyValuePercentage}</span></p>
+                  <p class="indent no-divider">Dietary Fiber ${nutritionFacts.macronutrients.dietaryFiber.amount}</p>
+                  <div class="divider"></div>
+                  <p class="indent no-divider">Total Sugars ${nutritionFacts.macronutrients.totalSugars.amount}</p>
+                  <div class="divider double-indent"></div>
+                  <p class="double-indent no-divider">Includes ${nutritionFacts.macronutrients.totalSugars.addedSugars} Added Sugars <span class="bold">${nutritionFacts.macronutrients.totalSugars.addedSugarsDailyValuePercentage}</span></p>
+                  <div class="divider"></div>
+                  <p class="no-divider"><span><span class="bold">Protein</span> ${nutritionFacts.macronutrients.protein.amount}</span></p>
+                  <div class="divider large"></div>
+                  ${nutritionFacts.vitaminsAndMinerals.map(nutrient => `
+                    <p>${nutrient.name} ${nutrient.amount} <span>${nutrient.dailyValuePercentage}</span></p>
+                  `).join('')}
+                </div>
+                <div class="divider medium"></div>
+                <p class="note">${nutritionFacts.footnote}</p>
+              </div>
+              </div>
+              
+            </div>
+          `;
+        });
+        mainContainer.innerHTML = productCardsHTML;
+      })
+      .catch(error => {
+        mainContainer.innerHTML = `<p class="error-message">Sorry, we are unable to load the products at this time. Please try again later.</p>`;
+        console.error('Error loading products:', error)
+      });
+  </script>
+
+</body>
+
+</html>

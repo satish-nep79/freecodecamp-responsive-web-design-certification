@@ -1,0 +1,107 @@
+[
+  {
+    "productId": "puerly-oats-001",
+    "productDetails": {
+      "title": "Puerly Oats: Artisan Craft Granola",
+      "image": {
+        "url": "https://images-cdn.ubuy.com.bd/68343c8bc978de619003956e-purely-elizabeth-oatmeal-raisin-cookie.jpg",
+        "alt": "Granola"
+      },
+      "subtitle": "Flavorful & Nutritious",
+      "description": "Our granola is made with the finest ingredients, carefully selected to provide a perfect balance of taste and nutrition. Each batch is crafted to ensure a delightful crunch and a rich flavor that will keep you coming back for more."
+    },
+    "nutritionFacts": {
+      "servingsPerContainer": 8,
+      "servingSize": "2/3 cup (55g)",
+      "calories": 230,
+      "macronutrients": {
+        "totalFat": { "amount": "8g", "dailyValuePercentage": "10%" },
+        "saturatedFat": { "amount": "1g", "dailyValuePercentage": "5%" },
+        "transFat": { "amount": "0g", "dailyValuePercentage": null },
+        "cholesterol": { "amount": "0mg", "dailyValuePercentage": "0%" },
+        "sodium": { "amount": "160mg", "dailyValuePercentage": "7%" },
+        "totalCarbohydrate": { "amount": "37g", "dailyValuePercentage": "13%" },
+        "dietaryFiber": { "amount": "4g", "dailyValuePercentage": null },
+        "totalSugars": { "amount": "12g", "addedSugars": "10g", "addedSugarsDailyValuePercentage": "20%" },
+        "protein": { "amount": "3g", "dailyValuePercentage": null }
+      },
+      "vitaminsAndMinerals": [
+        { "name": "Vitamin D", "amount": "2mcg", "dailyValuePercentage": "10%" },
+        { "name": "Calcium", "amount": "260mg", "dailyValuePercentage": "20%" },
+        { "name": "Iron", "amount": "8mg", "dailyValuePercentage": "45%" },
+        { "name": "Potassium", "amount": "235mg", "dailyValuePercentage": "6%" }
+      ],
+      "footnote": "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+    }
+  },
+  {
+    "productId": "dark-choco-almond-002",
+    "productDetails": {
+      "title": "ChocoNut: Dark Chocolate Almond Bars",
+      "image": {
+        "url": "https://beamingbaker.com/wp-content/uploads/2018/01/5-Ingredient-Dark-Chocolate-Almond-Coconut-Homemade-KIND-Bars-Paleo-Vegan-Gluten-Free-Dairy-Free-1A.jpg",
+        "alt": "Dark Chocolate Almond Bars"
+      },
+      "subtitle": "Decadent & Energizing",
+      "description": "Rich 70% dark chocolate paired with dry-roasted California almonds and a hint of sea salt. Packed with clean energy and antioxidants to power you through your afternoon slump."
+    },
+    "nutritionFacts": {
+      "servingsPerContainer": 4,
+      "servingSize": "1 bar (40g)",
+      "calories": 190,
+      "macronutrients": {
+        "totalFat": { "amount": "12g", "dailyValuePercentage": "15%" },
+        "saturatedFat": { "amount": "4.5g", "dailyValuePercentage": "23%" },
+        "transFat": { "amount": "0g", "dailyValuePercentage": null },
+        "cholesterol": { "amount": "0mg", "dailyValuePercentage": "0%" },
+        "sodium": { "amount": "95mg", "dailyValuePercentage": "4%" },
+        "totalCarbohydrate": { "amount": "21g", "dailyValuePercentage": "8%" },
+        "dietaryFiber": { "amount": "5g", "dailyValuePercentage": null },
+        "totalSugars": { "amount": "8g", "addedSugars": "6g", "addedSugarsDailyValuePercentage": "12%" },
+        "protein": { "amount": "6g", "dailyValuePercentage": null }
+      },
+      "vitaminsAndMinerals": [
+        { "name": "Vitamin D", "amount": "0mcg", "dailyValuePercentage": "0%" },
+        { "name": "Calcium", "amount": "50mg", "dailyValuePercentage": "4%" },
+        { "name": "Iron", "amount": "3.2mg", "dailyValuePercentage": "18%" },
+        { "name": "Potassium", "amount": "180mg", "dailyValuePercentage": "4%" }
+      ],
+      "footnote": "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+    }
+  },
+  {
+    "productId": "berry-blast-yogurt-003",
+    "productDetails": {
+      "title": "BerryBlast: Superfood Greek Yogurt",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=400",
+        "alt": "Greek Yogurt Bowl"
+      },
+      "subtitle": "Creamy & High-Protein",
+      "description": "Probiotic-rich Greek yogurt swirled with organic blueberries, raspberries, and blackberries. A velvety texture that makes a perfect breakfast base or post-workout recovery snack."
+    },
+    "nutritionFacts": {
+      "servingsPerContainer": 1,
+      "servingSize": "1 container (150g)",
+      "calories": 140,
+      "macronutrients": {
+        "totalFat": { "amount": "2g", "dailyValuePercentage": "3%" },
+        "saturatedFat": { "amount": "1g", "dailyValuePercentage": "5%" },
+        "transFat": { "amount": "0g", "dailyValuePercentage": null },
+        "cholesterol": { "amount": "10mg", "dailyValuePercentage": "3%" },
+        "sodium": { "amount": "60mg", "dailyValuePercentage": "3%" },
+        "totalCarbohydrate": { "amount": "16g", "dailyValuePercentage": "6%" },
+        "dietaryFiber": { "amount": "2g", "dailyValuePercentage": null },
+        "totalSugars": { "amount": "11g", "addedSugars": "4g", "addedSugarsDailyValuePercentage": "8%" },
+        "protein": { "amount": "15g", "dailyValuePercentage": null }
+      },
+      "vitaminsAndMinerals": [
+        { "name": "Vitamin D", "amount": "3mcg", "dailyValuePercentage": "15%" },
+        { "name": "Calcium", "amount": "300mg", "dailyValuePercentage": "25%" },
+        { "name": "Iron", "amount": "0.1mg", "dailyValuePercentage": "0%" },
+        { "name": "Potassium", "amount": "220mg", "dailyValuePercentage": "4%" }
+      ],
+      "footnote": "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+    }
+  }
+]

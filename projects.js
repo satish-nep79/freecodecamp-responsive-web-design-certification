@@ -99,6 +99,11 @@ const PROJECTS = {
       title: "Playing Cards",
       path: "./CSS/20-build-a-page-of-playing cards",
       desc: "Dynamic playing card layout rendered from JSON data with suit symbols, face-card styling, and responsive card composition."
+    },
+    {
+      title: "Nutrition Label",
+      path: "./CSS/21-build-a-nutrition-label",
+      desc: "Nutrition facts layout generated from JSON product data with structured labels, typography hierarchy, and responsive product cards."
     }
   ],
 
