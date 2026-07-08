@@ -14,7 +14,7 @@ The HTML section includes a wide range of practice projects covering HTML struct
 The CSS section contains styled interface projects such as a cafe menu, business card, stylized to-do list, blog post card, event flyer page, pricing plan layout page, playing cards project, and nutrition label build. These projects demonstrate responsive card layouts, hover states, transitions, and decorative visuals.
 
 ## Live Preview
-Open `index.html` in a browser to view the project gallery and access live previews.
+Open [this link](https://satish-nep79.github.io/freecodecamp-responsive-web-design-certification/) in a browser to view the project gallery and access live previews.
 
 ## Project Files
 
