@@ -36,6 +36,7 @@ This folder contains all CSS projects completed as part of the freeCodeCamp Resp
 19. Design a Pricing Plan Layout Page
 20. Build a Page of Playing Cards
 21. Build a Nutrition Label
+22. Build a Newspaper Article
 
 ## Skills Learned
 - Creating responsive and clean webpage layouts

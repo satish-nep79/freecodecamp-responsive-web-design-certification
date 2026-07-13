@@ -104,6 +104,11 @@ const PROJECTS = {
       title: "Nutrition Label",
       path: "./CSS/21-build-a-nutrition-label",
       desc: "Nutrition facts layout generated from JSON product data with structured labels, typography hierarchy, and responsive product cards."
+    },
+    {
+      title: "Newspaper Article",
+      path: "./CSS/22-build-a-newspaper-article",
+      desc: "Editorial article layout with headline hierarchy, image placement, multi-column content flow, and newspaper-style typography."
     }
   ],
 
