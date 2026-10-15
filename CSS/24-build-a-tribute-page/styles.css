@@ -1,0 +1,85 @@
+* {
+    font-size: 10px;
+    cursor: default;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+#main {
+    background-color: #EEEEEE;
+    padding: 20px 0;
+    margin: 30px 0px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+figure {
+    margin: 16px;
+}
+
+
+#main h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#main h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+#tribute-info, #tribute-info a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0 12px;
+}
+
+#main p {
+    font-size: 1.6rem;
+}
+
+#img-div {
+    background-color: white;
+    padding: 12px 12px;
+}
+
+#img-caption {
+    font-size: 1.5rem;
+    margin-top: 12px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+}
+
+ul {
+    max-width: 550px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+ul li,
+li strong {
+    font-size: 1.6rem;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+#testmonial-div {
+    max-width: 550px;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}

@@ -37,6 +37,8 @@ This folder contains all CSS projects completed as part of the freeCodeCamp Resp
 20. Build a Page of Playing Cards
 21. Build a Nutrition Label
 22. Build a Newspaper Article
+23. Build a Quiz Webpage
+24. Build a Tribute Page
 
 ## Skills Learned
 - Creating responsive and clean webpage layouts

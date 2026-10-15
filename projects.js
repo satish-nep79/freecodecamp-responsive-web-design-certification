@@ -109,6 +109,16 @@ const PROJECTS = {
       title: "Newspaper Article",
       path: "./CSS/22-build-a-newspaper-article",
       desc: "Editorial article layout with headline hierarchy, image placement, multi-column content flow, and newspaper-style typography."
+    },
+    {
+      title: "Quiz Webpage",
+      path: "./CSS/23-build-a-quiz-webpage",
+      desc: "Accessible HTML and CSS quiz with student information fields, grouped questions, semantic sections, and responsive form styling."
+    },
+    {
+      title: "Tribute Page",
+      path: "./CSS/24-build-a-tribute-page",
+      desc: "Responsive tribute page with a biography timeline, descriptive image and caption, testimonial, and accessible external link."
     }
   ],
 
